@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//Generators/Binomial.py=utf-8
+encoding//Generators/Exponential.py=utf-8
+encoding//Generators/Geometric.py=utf-8
+encoding//Generators/Poissona.py=utf-8
+encoding//HistogramPlot/PlotHist.py=utf-8
+encoding//UserInterface/CheckInput.py=utf-8
+encoding//UserInterface/ChooseGenerator.py=utf-8
+encoding//UserInterface/MainWindow.py=utf-8
