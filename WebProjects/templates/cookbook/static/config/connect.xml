@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectWithDatabase>
+	<Connect id="Postgres">
+		<Engine>postgresql_psycopg2</Engine>
+		<NameDatabase>CookDataBase</NameDatabase>
+		<User>postgres</User>
+		<Password>postgres</Password>
+		<Host>localhost</Host>
+		<Port>5432</Port>
+	</Connect>
+</ConnectWithDatabase>

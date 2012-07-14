@@ -1,0 +1,37 @@
+@font-face { font-family: Jellyka_CuttyCupcakes; src: url('./Jellyka_CuttyCupcakes.ttf'); }
+@font-face { font-family: Swagger; src: url('./Swagger.ttf'); }
+@font-face { font-family: SwaggerLight; src: url('./SwaggerLight.ttf'); }
+
+body{background-image: url('../images/bg2.jpg');}
+h1 {font-family: SwaggerLight; text-align:left; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); padding: 30px; margin-left: 10px;}
+#menu{margin-left:  190px; display:block; padding:0;} 
+#menu > ul {list-style:inside none; padding:0; margin:0;} 
+#menu > ul > li {list-style:inside none; padding:0; margin:0; float:left ; display:block; position:relative;} 
+#menu > ul > li > a{ outline:none; display:block; position:relative; padding:10px 15px; font-family: SwaggerLight; text-align:center; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); }
+/*podswietlanie zokrglenie */
+#menu > ul > li:first-child > a{border-radius:15px 0 0 15px;} 
+ 
+#menu ul li.has-sub:hover > a:after{top:100px; bottom:0;} 
+#menu > ul > li.has-sub:hover > a:before{top:10px;} 
+
+#menu ul li.has-sub:hover > a{ background:#3f3f3f; border-color:#3f3f3f; border-radius: 15px 15px 0 0 ; padding-bottom:13px; padding-top:13px; top:-1px; z-index:999; } 
+#menu ul li.has-sub:hover > ul, #menu ul li.has-sub:hover > div{display:block;} 
+
+/*pod menu*/
+#menu ul li > ul, #menu ul li > div{ display:none; width:auto; position:absolute; top:38px; padding:5px 0; background:#3f3f3f; border-radius:0 0 5px 5px; z-index:999; } 
+#menu ul li > ul{width:120px;} 
+#menu ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative;}
+/*podmemu*/ 
+#menu ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:10pt Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+#menu, #menu > ul > li > ul > li a:hover{} 
+#menu > ul > li > a{border-right:0 solid #1b313d; color:#fff;} 
+
+
+/*kolor po najechaniu*/
+#menu > ul > li > a:hover{background:#bfbfbf; border-radius: 15px;} 
+ 
+#container_menu{width: 100%;height: 120px;margin: 10px auto;background-color: #00FF00;padding-top: 50px;}
+#line_menu {background-image: url('../images/p2.jpg');width: 100%;height: 38px;border-radius:15px 15px;margin: 45px auto;box-shadow: 10px 10px 20px #888888;}
+#logo_menu {position:absolute; width:180px; height:120px; background-image:url('../images/logo.png');margin: -125px 43%; z-index: 10;}
+#content {background-size: 1000px 700px; background-image: url('../images/y3.png'); width:1000px; height:700px; margin-top: 0px; margin-left: 100px; margin-right: 100px; } 
+

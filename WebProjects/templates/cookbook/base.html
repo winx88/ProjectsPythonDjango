@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="shortcut icon" href="{{ STATIC_URL }}images/adr.png" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/main.css" />
+        <title>{% block title %}Basic Templete{% endblock %}</title>
+    </head>
+    <body>
+
+        <div id="line_menu">
+            <div id='menu'>
+                <ul>
+                    <li class='active '>
+                        <a href='index.html'><span>Home</span></a>
+                    </li>
+                    <li class='has-sub '>
+                        <a href='#'><span>Productss</span></a>
+                        <ul>
+                            <li>
+                                <a href='#'><span>Product 1</span></a>
+                            </li>
+                            <li>
+                                <a href='#'><span>Product 2</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href='#'><span>About</span></a>
+                    </li>
+                    <li>
+                        <a href='#'><span>Contact</span></a>
+                    </li>
+                    <li>
+                        <a href='#'><span>Login</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="logo_menu"></div>
+        <div id="content">         
+            {% block content %}Example Templete{% endblock %}
+        </div>
+
+        <!-- <video width="320" height="240" controls="controls">
+        <source src="{{ STATIC_URL }}videos/films.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+        </video>
+        -->
+    </body>
+</html>
